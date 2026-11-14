@@ -22,7 +22,7 @@ On the Nasdaq-100 (QQQ) over the same period, buy-and-hold returned 14.6% a year
 **What this shows:**
 - **Nothing beat buy-and-hold on raw return.** Over 20 years, sitting out of the market costs more than it saves.
 - **Trend following was the better *risk-adjusted* bet.** The 50/200-day crossover gave up 1.2 points a year but cut the worst loss from -55% to -34% by stepping aside during 2008. Its Sharpe ratio was higher on both SPY and QQQ.
-- **Short-term mean reversion failed on index ETFs.** Buying 20-day dips worked on paper days, but 293 trades of costs and only 26% time invested left it far behind.
+- **Short-term mean reversion failed on index ETFs.** Buying 20-day dips made money on 55% of invested days, but it was invested only 26% of the time and paid costs on 293 trades, so it fell far behind.
 
 Reproduce it with `python -m backtester.report SPY 2005-01-01 2025-01-01`.
 
